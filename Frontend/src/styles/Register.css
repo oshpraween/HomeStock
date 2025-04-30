@@ -1,0 +1,153 @@
+/* General Styles */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Matched to login form */
+  padding: 20px;
+}
+
+/* Left Side - Logo */
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-logo {
+  width: 250px;
+  height: auto;
+}
+
+/* Right Side - Register Box */
+.register-box-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.register-box {
+  background: #ffffff;
+  padding: 28px; /* Matched to login form */
+  border-radius: 10px; /* Slightly smaller border radius */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  width: 380px; /* Matched width */
+}
+
+h2 {
+  font-size: 22px; /* Matched to login form */
+  margin-bottom: 10px;
+  color: #222;
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 95%; /* Matched login form */
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+  background-color: #f9f9f9;
+  transition: 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 6px rgba(0, 123, 255, 0.6);
+}
+
+/* Checkbox */
+.remember-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.remember-me input[type="checkbox"] {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+
+/* Buttons */
+.register-btn, .google-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.register-btn:hover {
+  background-color: #0056b3;
+}
+
+.google-btn {
+  background-color: white;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.google-btn img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.google-btn:hover {
+  background-color: #f8f9fa;
+}
+
+/* Login Link */
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

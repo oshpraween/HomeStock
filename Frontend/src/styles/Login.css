@@ -1,0 +1,180 @@
+/* General styles */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Left Side - Logo */
+.logo-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 300px; /* Slightly smaller logo */
+  height: auto;
+}
+.small-logo {
+  width: 45px; /* Slightly smaller small logo */
+  height: auto;
+  margin-bottom: 8px; /* Reduced space below */
+}
+
+/* Right Side - Login Box */
+.login-box-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.login-box {
+  background: #ffffff;
+  padding: 28px; /* Reduced padding */
+  border-radius: 10px; /* Slightly smaller border radius */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12); /* Smaller shadow */
+  text-align: center;
+  width: 380px; /* Further reduced width for more compact look */
+}
+
+h2 {
+  font-size: 22px; /* Reduced font size */
+  margin-bottom: 10px; /* Reduced margin */
+  color: #222;
+}
+
+p {
+  font-size: 14px; /* Reduced font size */
+  color: #666;
+}
+
+.input-group {
+  margin-bottom: 14px; /* Reduced margin */
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px; /* Reduced space between label and input */
+  font-size: 15px; /* Reduced label font size */
+  font-weight: 500;
+  color: #333;
+}
+
+.input-group input {
+  width: 95%; /* Full width */
+  padding: 10px; /* Reduced padding */
+  border: 1px solid #bbb;
+  border-radius: 6px; /* Slightly smaller border radius */
+  font-size: 15px; /* Reduced input font size */
+  outline: none;
+  transition: 0.3s;
+  background-color: #f9f9f9;
+}
+
+.input-group input:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 6px rgba(0, 123, 255, 0.6);
+}
+
+
+.remember-forgot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.remember-forgot label {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Reduce spacing between checkbox and text */
+  cursor: pointer;
+}
+
+.remember-forgot input[type="checkbox"] {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+}
+
+
+
+
+
+
+.forgot-password {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  padding: 12px; /* Reduced padding */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px; /* Smaller border radius */
+  font-size: 16px; /* Reduced font size */
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Google Sign-In Button */
+.google-btn {
+  width: 100%;
+  padding: 12px; /* Reduced padding */
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px; /* Smaller border radius */
+  font-size: 15px; /* Reduced font size */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px; /* Reduced margin */
+}
+
+.google-btn img {
+  width: 18px; /* Smaller icon */
+  height: 18px;
+  margin-right: 8px; /* Reduced space between icon and text */
+}
+
+.google-btn:hover {
+  background-color: #f8f9fa;
+}
+
+/* Register Link */
+.register-link {
+  margin-top: 20px; /* Reduced margin */
+  font-size: 14px; /* Reduced font size */
+  color: #444;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

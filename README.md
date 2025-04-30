@@ -1,0 +1,2 @@
+# HomeStock
+inventory mangment webapp

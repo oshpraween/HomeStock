@@ -12,7 +12,10 @@ function AddProduct() {
     e.preventDefault();
     axios
       .post("http://localhost:5000/api/products", { name, price, quantity })
-      .then(() => navigate("/"))
+      .then(() => {
+        // Navigate back to ProductList with success message
+        navigate("/", { state: { message: "Product added successfully!" } });
+      })
       .catch((error) => console.error("Error adding product:", error));
   };
 
